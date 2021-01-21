@@ -1,0 +1,44 @@
+{
+   "mobileTeam":[
+      {
+         "members":[
+            {
+               "email":"ok@wehkamp.nl",
+               "image":"https://ca.slack-edge.com/T12B7T550-U6GBC1HJN-40c92069f87f-512",
+               "name":"Onur Karsli",
+               "role":"iOS Developer"
+            },
+            {
+               "email":"ra@wehkamp.nl",
+               "image":"https://ca.slaasfck-edge.com/T12B7T550-U98DNCZF0-8cc0354a4969-512",
+               "name":"Ruben Aalders",
+               "role":"iOS Developer"
+            }
+         ],
+         "team":"ios"
+      },
+      {
+         "members":[
+            {
+               "email":"bl@wehkamp.nl",
+               "image":"https://ca.slack-edge.com/T12B7T550-U165HANH5-g2525f2a2b87-512",
+               "name":"Benny de Leeuw",
+               "role":"Android Developer"
+            },
+            {
+               "email":"gs@wehkamp.nl",
+               "image":"https://ca.slack-edge.com/T12B7T550-U8MR2P44W-2dbf13551d5a-512",
+               "name":"Gijs Stokman",
+               "role":"Android Developer"
+            },
+            {
+               "email":"pb@wehkamp.nl",
+               "image":"https://ca.slack-edge.com/T12B7T550-U01FEG7LPAB-fe33810503b9-512",
+               "name":"Peter Bruinink",
+               "role":"Android Developer"
+            }
+         ],
+         "team":"android"
+      }
+   ]
+}
