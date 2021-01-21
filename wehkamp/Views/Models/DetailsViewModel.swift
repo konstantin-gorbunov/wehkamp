@@ -20,11 +20,18 @@ struct DetailsViewModel {
         role = member.role
         email = member.email
         self.team = team.team
-        if let imageStrURL = member.image {
+        if let imageStrURL = member.image, DetailsViewModel.verifyUrl(urlString: imageStrURL) {
             imageUrl = URL.init(string: imageStrURL)
         }
         else {
             imageUrl = nil
         }
+    }
+    
+    private static func verifyUrl (urlString: String) -> Bool {
+        if let url = NSURL(string: urlString) {
+            return UIApplication.shared.canOpenURL(url as URL)
+        }
+        return false
     }
 }

@@ -10,7 +10,6 @@
 		8B12CC7125B729F9008CB192 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B12CC7025B729F9008CB192 /* AppDelegate.swift */; };
 		8B12CC7A25B729FE008CB192 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B12CC7925B729FE008CB192 /* Assets.xcassets */; };
 		8B12CC7D25B729FE008CB192 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B12CC7B25B729FE008CB192 /* LaunchScreen.storyboard */; };
-		8B12CC8825B729FF008CB192 /* wehkampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B12CC8725B729FF008CB192 /* wehkampTests.swift */; };
 		8B12CC9B25B7328F008CB192 /* AppDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B12CC9A25B7328F008CB192 /* AppDependency.swift */; };
 		8B12CC9E25B732D7008CB192 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B12CC9D25B732D7008CB192 /* Coordinator.swift */; };
 		8B12CCA125B7330D008CB192 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B12CCA025B7330D008CB192 /* AppCoordinator.swift */; };
@@ -40,6 +39,11 @@
 		8B12CCD925B7944F008CB192 /* MobileTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B12CCD825B7944F008CB192 /* MobileTeam.swift */; };
 		8B12CCDB25B79462008CB192 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B12CCDA25B79462008CB192 /* Member.swift */; };
 		8B26403525B9874500FD7590 /* URLSession+Department.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B26403425B9874500FD7590 /* URLSession+Department.swift */; };
+		8B26403F25B9976200FD7590 /* MockDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B26403E25B9976200FD7590 /* MockDependency.swift */; };
+		8B26405225B9B89900FD7590 /* AppCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B26405125B9B89900FD7590 /* AppCoordinatorTests.swift */; };
+		8B26408025B9BB5C00FD7590 /* HomeCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B26407F25B9BB5C00FD7590 /* HomeCoordinatorTests.swift */; };
+		8B26408625B9D6B500FD7590 /* DetailsCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B26408525B9D6B500FD7590 /* DetailsCoordinatorTests.swift */; };
+		8B26408C25B9D93D00FD7590 /* DetailsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B26408B25B9D93D00FD7590 /* DetailsViewModelTests.swift */; };
 		8BA7268225B85FC100F3EFA7 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA7268125B85FC100F3EFA7 /* SectionHeader.swift */; };
 		8BA7268625B8603100F3EFA7 /* SectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BA7268525B8603100F3EFA7 /* SectionHeader.xib */; };
 		8BA7269825B86AE700F3EFA7 /* TeamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA7269725B86AE700F3EFA7 /* TeamViewModel.swift */; };
@@ -65,7 +69,6 @@
 		8B12CC7C25B729FE008CB192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B12CC7E25B729FE008CB192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B12CC8325B729FF008CB192 /* wehkampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wehkampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B12CC8725B729FF008CB192 /* wehkampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wehkampTests.swift; sourceTree = "<group>"; };
 		8B12CC8925B729FF008CB192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B12CC9A25B7328F008CB192 /* AppDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependency.swift; sourceTree = "<group>"; };
 		8B12CC9D25B732D7008CB192 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
@@ -96,6 +99,11 @@
 		8B12CCD825B7944F008CB192 /* MobileTeam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileTeam.swift; sourceTree = "<group>"; };
 		8B12CCDA25B79462008CB192 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
 		8B26403425B9874500FD7590 /* URLSession+Department.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+Department.swift"; sourceTree = "<group>"; };
+		8B26403E25B9976200FD7590 /* MockDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDependency.swift; sourceTree = "<group>"; };
+		8B26405125B9B89900FD7590 /* AppCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorTests.swift; sourceTree = "<group>"; };
+		8B26407F25B9BB5C00FD7590 /* HomeCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinatorTests.swift; sourceTree = "<group>"; };
+		8B26408525B9D6B500FD7590 /* DetailsCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCoordinatorTests.swift; sourceTree = "<group>"; };
+		8B26408B25B9D93D00FD7590 /* DetailsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModelTests.swift; sourceTree = "<group>"; };
 		8BA7268125B85FC100F3EFA7 /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
 		8BA7268525B8603100F3EFA7 /* SectionHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SectionHeader.xib; sourceTree = "<group>"; };
 		8BA7269725B86AE700F3EFA7 /* TeamViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewModel.swift; sourceTree = "<group>"; };
@@ -159,7 +167,11 @@
 		8B12CC8625B729FF008CB192 /* wehkampTests */ = {
 			isa = PBXGroup;
 			children = (
-				8B12CC8725B729FF008CB192 /* wehkampTests.swift */,
+				8B26403E25B9976200FD7590 /* MockDependency.swift */,
+				8B26405125B9B89900FD7590 /* AppCoordinatorTests.swift */,
+				8B26407F25B9BB5C00FD7590 /* HomeCoordinatorTests.swift */,
+				8B26408525B9D6B500FD7590 /* DetailsCoordinatorTests.swift */,
+				8B26408B25B9D93D00FD7590 /* DetailsViewModelTests.swift */,
 				8B12CC8925B729FF008CB192 /* Info.plist */,
 			);
 			path = wehkampTests;
@@ -410,7 +422,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B12CC8825B729FF008CB192 /* wehkampTests.swift in Sources */,
+				8B26403F25B9976200FD7590 /* MockDependency.swift in Sources */,
+				8B26408625B9D6B500FD7590 /* DetailsCoordinatorTests.swift in Sources */,
+				8B26408C25B9D93D00FD7590 /* DetailsViewModelTests.swift in Sources */,
+				8B26405225B9B89900FD7590 /* AppCoordinatorTests.swift in Sources */,
+				8B26408025B9BB5C00FD7590 /* HomeCoordinatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,9 +613,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Q839BLQ66;
 				INFOPLIST_FILE = wehkampTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -618,9 +636,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Q839BLQ66;
 				INFOPLIST_FILE = wehkampTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

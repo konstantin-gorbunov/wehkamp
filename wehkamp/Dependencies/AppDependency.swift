@@ -11,6 +11,6 @@ protocol Dependency {
 }
 
 class AppDependency: Dependency {
-//    let dataProvider: DataProvider = LocalMembersDataProvider()
+
     let dataProvider: DataProvider = RemoteMembersDataProvider()
 }
