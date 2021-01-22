@@ -10,6 +10,6 @@ struct Department: Codable {
     let mobileTeam: [MobileTeam]
     
     var isEmpty: Bool {
-        return mobileTeam.count == 0
+        return mobileTeam.isEmpty
     }
 }

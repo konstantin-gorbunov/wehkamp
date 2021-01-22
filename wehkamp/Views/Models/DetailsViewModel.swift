@@ -29,8 +29,8 @@ struct DetailsViewModel {
     }
     
     private static func verifyUrl (urlString: String) -> Bool {
-        if let url = NSURL(string: urlString) {
-            return UIApplication.shared.canOpenURL(url as URL)
+        if let url = URL(string: urlString) {
+            return UIApplication.shared.canOpenURL(url)
         }
         return false
     }

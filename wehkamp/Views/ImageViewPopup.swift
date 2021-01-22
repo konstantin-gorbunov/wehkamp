@@ -12,8 +12,7 @@ final class ImageViewPopup: UIImageView {
     private var tempRect: CGRect?
     private var bgView: UIView?
     
-    private var animated: Bool = true
-    private var intDuration: TimeInterval = 0.25
+    private var animDuration: TimeInterval = 0.25
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -26,7 +25,7 @@ final class ImageViewPopup: UIImageView {
     @objc private func exitFullScreen () {
         guard let imageV = bgView?.subviews.first as? UIImageView else { return }
         
-        UIView.animate(withDuration: intDuration, animations: {
+        UIView.animate(withDuration: animDuration, animations: {
             if let tempRect = self.tempRect {
                 imageV.frame = tempRect
             }
@@ -53,13 +52,11 @@ final class ImageViewPopup: UIImageView {
         bgView.addSubview(imageV)
         window.addSubview(bgView)
         
-        if animated {
-            UIView.animate(withDuration: intDuration, animations: {
-                bgView.alpha = 1
-                imageV.frame = CGRect(x: 0, y: 0, width: parentView.frame.width, height: parentView.frame.width)
-                imageV.center = parentView.center
-            })
-        }
+        UIView.animate(withDuration: animDuration, animations: {
+            bgView.alpha = 1
+            imageV.frame = CGRect(x: 0, y: 0, width: parentView.frame.width, height: parentView.frame.width)
+            imageV.center = parentView.center
+        })
     }
     
     private func findParentViewController() -> UIViewController? {
