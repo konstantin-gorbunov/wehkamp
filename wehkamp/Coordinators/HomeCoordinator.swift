@@ -26,8 +26,10 @@ class HomeCoordinator<T: Dependency>: Coordinator<T> {
         navigationViewController.viewControllers = [loadingViewController]
         loadingViewController.title = title
 
-        dependency.dataProvider.fetchMemberList { [weak self] result in
-            self?.processResults(result)
+        dependency.dataProvider.fetchMemberList { result in
+            DispatchQueue.main.async { [weak self] in
+                self?.processResults(result)
+            }
         }
     }
 
