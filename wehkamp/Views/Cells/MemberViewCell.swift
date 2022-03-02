@@ -30,4 +30,10 @@ class MemberViewCell: UICollectionViewCell, NibInstantiatable {
             }
         }
     }
+    
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        imageView?.image = nil
+        titleLabel?.text = nil
+    }
 }

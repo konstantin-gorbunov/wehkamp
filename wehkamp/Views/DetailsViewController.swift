@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol DetailsViewDelegate: class {
+protocol DetailsViewDelegate: AnyObject {
     func onDetailsViewFinished(_ viewController: UIViewController)
 }
 

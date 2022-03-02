@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol MembersCollectionViewDelegate: class {
+protocol MembersCollectionViewDelegate: AnyObject {
     func didSelectMember(_ customer: Member, in team: MobileTeam)
 }
 

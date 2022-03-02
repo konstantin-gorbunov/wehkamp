@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol DetailsDelegate: class {
+protocol DetailsDelegate: AnyObject {
     func onDetailsFlowFinished<T>(_ coordinator: Coordinator<T>)
 }
 
